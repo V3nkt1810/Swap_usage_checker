@@ -12,7 +12,7 @@ if [ ! -f "$server_list" ]; then
     exit 1
 fi
 
-# Function to format output in a table-like structure
+
 print_table() {
     printf "%-10s %-20s %-10s %-10s %-s\n" "PID" "USER" "SWAP(GB/MB)" "COMMAND"
     printf "%-10s %-20s %-10s %-10s %-s\n" "--------" "--------------------" "--------" "-------------------------"
